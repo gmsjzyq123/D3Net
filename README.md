@@ -1,6 +1,10 @@
 # D3Net
+
 The code for the Domain-Adversarial Generative and Dual Feature Representation Discriminative Network for Hyperspectral Image Domain Generalization.
 
+## Datasets
+
+```
 datasets
 ├── Houston
 │   ├── Houston13.mat
@@ -13,4 +17,5 @@ datasets
 │   ├── paviaU.mat
 │   └── paviaU_7gt.mat
 └── Indiana
+```
    
