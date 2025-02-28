@@ -1,6 +1,6 @@
 # Domain-Adversarial Generative and Dual Feature Representation Discriminative Network for Hyperspectral Image Domain Generalization.
 
-The paper:[Domain-Adversarial Generative and Dual Feature Representation Discriminative Network for Hyperspectral Image Domain Generalization](https://ieeexplore.ieee.org/document/10695100 "Access the paper")
+You can access the paper [here](https://ieeexplore.ieee.org/document/10695100 "Access the paper").
 ![D3net](figure/D3net.jpg)
 
 ## Abstract
@@ -38,11 +38,6 @@ The following datasets are used for experiments:
   - `paviaU_7gt.mat`: Ground truth data for Pavia University.
 
 - **Indiana**: Contains hyperspectral images from the Indiana region.
-
-
-
-## Datasets
-
 ```
 datasets
 ├── Houston
