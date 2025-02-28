@@ -1,13 +1,14 @@
 # Domain-Adversarial Generative and Dual Feature Representation Discriminative Network for Hyperspectral Image Domain Generalization.
 
-[Domain-Adversarial Generative and Dual Feature Representation Discriminative Network for Hyperspectral Image Domain Generalization](https://ieeexplore.ieee.org/document/10695100 "Visit OpenAI's official website")
+The paper:[Domain-Adversarial Generative and Dual Feature Representation Discriminative Network for Hyperspectral Image Domain Generalization](https://ieeexplore.ieee.org/document/10695100 "Access the paper")
 ![D3net](figure/D3net.jpg)
 
 ## Abstract
 
-Traditional training models often experience significant performance drops on test sets when the training and testing data distributions differ. To address this domain shift problem, we propose D3Net, a domain generalization (DG) classification network for hyperspectral images (HSIs) based on generative adversarial networks (GANs). Specifically, D3Net consists mainly of a generator and a discriminator. The generator extracts domain-invariant information from the source domain to generate data with core classification features, while the discriminator employs a dual-confidence model to enhance the capture of domain-invariant features. Through adversarial iterations, the model is able to adapt to the domain shift effects of unknown data. Unlike existing DG methods that rely on random perturbations for data augmentation, D3Net utilizes learnable convolutional neural networks (CNNs) rather than randomization to enhance the model’s learning capability.We conducted cross-scene classification experiments on datasets from Houston, Pavia, and Indiana, and the results demonstrate the effectiveness of our approach. The code for D3Net is available at: https://github.com/gmsjzyq123/D3Net.
+Traditional training models often suffer significant performance drops on test sets when there is a discrepancy between the distributions of the training and testing data. To address this domain shift issue, we propose D3Net, a domain generalization (DG) classification network for hyperspectral images (HSIs) based on generative adversarial networks (GANs). D3Net primarily consists of a generator and a discriminator. The generator extracts domain-invariant information from the source domain to generate data with essential classification features. The discriminator employs a dual-confidence model to better capture domain-invariant features. Through adversarial training, the model adapts to domain shifts encountered with unknown data. Unlike existing DG methods, which rely on random perturbations for data augmentation, D3Net utilizes learnable convolutional neural networks (CNNs) to enhance the model’s learning capability. We conducted cross-scene classification experiments using datasets from Houston, Pavia, and Indiana, and the results demonstrate the effectiveness of our approach. The code for D3Net is available at: https://github.com/gmsjzyq123/D3Net.
 
 ## Citation
+To cite this paper, use the following format:
 ```
 @ARTICLE{10695100,
   author={Chu, Minghui and Yu, Xiaodong and Dong, Hongbin and Zang, Shuying},
@@ -20,6 +21,25 @@ Traditional training models often experience significant performance drops on te
   keywords={Hyperspectral imaging;Data models;Feature extraction;Generators;Training;Generative adversarial networks;Adaptation models;Contrastive learning;domain generalization (DG);generative adversarial network (GAN);hyperspectral image (HSI) classification},
   doi={10.1109/TGRS.2024.3468311}}
 ```
+## Datasets
+
+The following datasets are used for experiments:
+
+- **Houston**: Contains hyperspectral images from the Houston area, including various land cover types. Files:
+  - `Houston13.mat`: Dataset with 13 spectral bands.
+  - `Houston13_7gt.mat`: Ground truth data for Houston13.
+  - `Houston18.mat`: Dataset with 18 spectral bands.
+  - `Houston18_7gt.mat`: Ground truth data for Houston18.
+
+- **Pavia**: Includes hyperspectral images from the Pavia region, commonly used for classification. Files:
+  - `paviaC.mat`: Dataset for Pavia city.
+  - `paviaC_7gt.mat`: Ground truth data for Pavia city.
+  - `paviaU.mat`: Dataset for Pavia University.
+  - `paviaU_7gt.mat`: Ground truth data for Pavia University.
+
+- **Indiana**: Contains hyperspectral images from the Indiana region.
+
+
 
 ## Datasets
 
