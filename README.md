@@ -1,6 +1,4 @@
-# D3Net
-
-The code for the Domain-Adversarial Generative and Dual Feature Representation Discriminative Network for Hyperspectral Image Domain Generalization.
+# Domain-Adversarial Generative and Dual Feature Representation Discriminative Network for Hyperspectral Image Domain Generalization.
 
 ![D3net](figure/D3net.jpg)
 
